@@ -1,5 +1,5 @@
 import { useGSAP } from '@gsap/react';
-import { cocktailsList } from '../constants';
+import { cocktailLists } from '../constants';
 import gsap from 'gsap';
 
 const Cocktails = () => {
@@ -21,7 +21,7 @@ const Cocktails = () => {
         start: 'top 30%',
         end: 'bottom 80%',
         scrub: true,
-        markers: true,
+        // markers: true,
       },
     });
 
@@ -46,7 +46,7 @@ const Cocktails = () => {
         <div className="popular">
           <h2>Most popular cocktails: </h2>
           <ul>
-            {cocktailsList.map(({ name, country, detail, price }) => (
+            {cocktailLists.map(({ name, country, detail, price }) => (
               <li key={name}>
                 <div className="md:me-28">
                   <h3>{name}</h3>
@@ -63,7 +63,7 @@ const Cocktails = () => {
         <div className="popular">
           <h2>Most loved mocktails: </h2>
           <ul>
-            {cocktailsList.map(({ name, country, detail, price }) => (
+            {cocktailLists.map(({ name, country, detail, price }) => (
               <li key={name}>
                 <div className="me-28">
                   <h3>{name}</h3>

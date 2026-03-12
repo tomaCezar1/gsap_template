@@ -4,13 +4,29 @@ import { SplitText } from 'gsap/SplitText';
 
 const About = () => {
   useGSAP(() => {
-    const titleSplit = new SplitText('.content', { type: 'lines' });
+    const titleSplit = SplitText.create('#about h2', { type: 'words' });
 
-    // gsap.from(titleSplit.lines, {
-    //   y: 50,
-    //   stagger: 0.1,
-    //   ease: 'power2.out',
-    // });
+    const scrollTimeline = gsap.timeline({
+      scrollTrigger: {
+        trigger: '#about',
+        start: 'top center',
+      },
+    });
+
+    scrollTimeline
+      .from(titleSplit.words, {
+        yPercent: 100,
+        stagger: 0.02,
+        ease: 'expo.out',
+        duration: 1,
+        opacity: 0,
+      })
+      .from('.top-grid div, .bottom-grid div', {
+        duration: 1,
+        opacity: 0,
+        ease: 'power1.out',
+        stagger: 0.05,
+      });
   }, []);
 
   return (
