@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://github.com/tomaCezar1/gsap_template",
+  "homepage": "https://tomaCezar1.github.io/gsap_template",
   "scripts": {
     "dev": "vite --port 4300",
     "build": "tsc -b && vite build",
