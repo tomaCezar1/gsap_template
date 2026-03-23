@@ -34,18 +34,19 @@ const About = () => {
       <div className="mb-16 md:px-0 px-5">
         <div className="content">
           <div className="md:col-span-8">
-            <p className="badge">Best Cocktails</p>
+            <p className="badge">Cele Mai Bune Cocktailuri</p>
             <h2>
-              Where every detail matters <span className="text-white">-</span>
-              from muddle to garnish
+              Unde fiecare detaliu contează <span className="text-white">-</span>
+              de la preparare până la garnisire
             </h2>
           </div>
 
           <div className="sub-content">
             <p>
-              Every cocktail we serve is a reflection of our obsession with
-              detail - from the first muddle to the final garnish. That care is
-              what turns a simple drink into something truly memorable.
+              Fiecare cocktail pe care îl servim reflectă obsesia noastră
+              pentru detalii – de la prima preparare până la garnisirea finală.
+              Această grijă transformă o băutură simplă în ceva cu adevărat
+              memorabil.
             </p>
 
             <div>
@@ -53,7 +54,7 @@ const About = () => {
                 <span>4.5</span>/5
               </p>
               <p className="text-sm text-white-100">
-                More than +10000 customers
+                Peste +10.000 de clienți mulțumiți
               </p>
             </div>
           </div>

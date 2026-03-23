@@ -44,7 +44,7 @@ const Cocktails = () => {
 
       <div className="list">
         <div className="popular">
-          <h2>Most popular cocktails: </h2>
+          <h2>Cele mai populare cocktailuri: </h2>
           <ul>
             {cocktailLists.map(({ name, country, detail, price }) => (
               <li key={name}>
@@ -61,7 +61,7 @@ const Cocktails = () => {
         </div>
 
         <div className="popular">
-          <h2>Most loved mocktails: </h2>
+          <h2>Cele mai îndrăgite mocktailuri: </h2>
           <ul>
             {cocktailLists.map(({ name, country, detail, price }) => (
               <li key={name}>

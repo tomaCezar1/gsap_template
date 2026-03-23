@@ -47,10 +47,10 @@ const Menu = () => {
         id="m-right-leaf"
       />
       <h2 id="menu-heading" className="sr-only">
-        Cocktail Menu
+        Meniu Cocktailuri
       </h2>
 
-      <nav className="cocktail-tabs" aria-label="Cocktail Navigation">
+      <nav className="cocktail-tabs" aria-label="Navigare Cocktailuri">
         {allCocktails.map((cocktail, index) => {
           const isActive = index === currentIndex;
 
@@ -106,7 +106,7 @@ const Menu = () => {
 
         <div className="recipe">
           <div ref={contentRef} className="info">
-            <p>Recipe for:</p>
+            <p>Rețetă pentru:</p>
             <p id="title">{currentCocktail.name}</p>
           </div>
 
