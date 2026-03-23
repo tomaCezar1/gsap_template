@@ -88,19 +88,19 @@ const Hero = () => {
         <div className="body">
           <div className="content">
             <div className="space-y-5 hidden md:block">
-              <p>Cool. Crisp. Classic.</p>
+              <p>Rece. Proaspăt. Clasic.</p>
               <p className="subtitle">
-                Sip the Spirit <br /> of Summer
+                Gustă Spiritul <br /> Verii
               </p>
             </div>
 
             <div className="view-cocktails">
               <p className="subtitle">
-                Every cocktail on our menu is a blend of premium ingredients,
-                creative flair, and timeless recipes - designed to delight your
-                senses.|
+                Fiecare cocktail din meniul nostru este un amestec de ingrediente
+                premium, creativitate și rețete clasice – conceput să îți
+                încânte simțurile.|
               </p>
-              <a href="#cocktails">View Cocktails</a>
+              <a href="#cocktails">Vezi Cocktailurile</a>
             </div>
           </div>
         </div>
