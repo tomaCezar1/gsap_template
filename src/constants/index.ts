@@ -138,7 +138,7 @@ const allCocktails = [
   {
     id: 1,
     name: 'Classic Mojito',
-    image: '/images/drink1.png',
+    image: 'images/drink1.png',
     title: 'Ingrediente Simple, Gust Puternic',
     description:
       'Preparat cu rom alb, suc de lămâie verde și mentă proaspătă, Mojito Classic este ușor de făcut și plin de caracter. Adaugă puțin zahăr brun pentru băutura perfectă în serile de vară.',
@@ -146,7 +146,7 @@ const allCocktails = [
   {
     id: 2,
     name: 'Raspberry Mojito',
-    image: '/images/drink2.png',
+    image: 'images/drink2.png',
     title: 'Un Clasic Răcoritor Care Nu Dezamăgește Niciodată',
     description:
       'Mojito cu Zmeură îmbină dulceața zmeurilor cu prospețimea mentei și aciditatea lămâii verzi. Agitat, înghețat sau cu cuburi de gheață – mereu crocant și revigorant.',
@@ -154,7 +154,7 @@ const allCocktails = [
   {
     id: 3,
     name: 'Violet Breeze',
-    image: '/images/drink3.png',
+    image: 'images/drink3.png',
     title: 'Ingrediente Simple, Gust Puternic',
     description:
       'Preparat cu lavandă, suc de lămâie și un strop de sirop violet, Violet Breeze este ușor de savurat și plin de personalitate. Adaugă o floare pentru băutura perfectă în serile de vară.',
@@ -162,7 +162,7 @@ const allCocktails = [
   {
     id: 4,
     name: 'Curacao Mojito',
-    image: '/images/drink4.png',
+    image: 'images/drink4.png',
     title: 'Creat cu Grijă, Turnat cu Dragoste',
     description:
       'Fiecare cocktail este preparat cu ingrediente proaspete și cu pasiunea de a perfecționa fiecare turnare, fie că sărbătorești sau pur și simplu te relaxezi.',
