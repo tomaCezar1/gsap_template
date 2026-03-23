@@ -36,17 +36,17 @@ const About = () => {
           <div className="md:col-span-8">
             <p className="badge">Cele Mai Bune Cocktailuri</p>
             <h2>
-              Unde fiecare detaliu contează <span className="text-white">-</span>
+              Unde fiecare detaliu conteaza{' '}
+              <span className="text-white">-</span>
               de la preparare până la garnisire
             </h2>
           </div>
 
           <div className="sub-content">
             <p>
-              Fiecare cocktail pe care îl servim reflectă obsesia noastră
-              pentru detalii – de la prima preparare până la garnisirea finală.
-              Această grijă transformă o băutură simplă în ceva cu adevărat
-              memorabil.
+              Fiecare cocktail pe care îl servim reflectă obsesia noastră pentru
+              detalii – de la prima preparare până la garnisirea finală. Această
+              grijă transformă o băutură simplă în ceva cu adevărat memorabil.
             </p>
 
             <div>

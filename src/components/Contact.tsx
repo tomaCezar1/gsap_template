@@ -57,7 +57,7 @@ const Contact = () => {
 
         <div>
           <h3>Contactează-ne</h3>
-          <p>salut@themojito.md</p>
+          <p>salut@mojito.md</p>
           <p>+373 69 123 456</p>
         </div>
 

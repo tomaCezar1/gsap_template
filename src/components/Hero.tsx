@@ -90,15 +90,15 @@ const Hero = () => {
             <div className="space-y-5 hidden md:block">
               <p>Rece. Proaspăt. Clasic.</p>
               <p className="subtitle">
-                Gustă Spiritul <br /> Verii
+                Gusta Spiritul <br /> Verii
               </p>
             </div>
 
             <div className="view-cocktails">
               <p className="subtitle">
-                Fiecare cocktail din meniul nostru este un amestec de ingrediente
-                premium, creativitate și rețete clasice – conceput să îți
-                încânte simțurile.|
+                Fiecare cocktail din meniul nostru este un amestec de
+                ingrediente premium, creativitate și rețete clasice – conceput
+                să îți încânte simțurile.|
               </p>
               <a href="#cocktails">Vezi Cocktailurile</a>
             </div>

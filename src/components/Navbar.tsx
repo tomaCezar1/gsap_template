@@ -34,7 +34,7 @@ const Navbar = () => {
             alt="logo"
             className="w-8 h-8 object-contain"
           />
-          <p>The Mojito</p>
+          <p>Mojito</p>
         </a>
         <ul>
           {navLinks.map((link) => (
