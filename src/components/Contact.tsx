@@ -48,21 +48,21 @@ const Contact = () => {
       <img src="images/footer-left-leaf.png" alt="leaf-left" id="f-left-leaf" />
 
       <div className="content">
-        <h2>Where to Find Us</h2>
+        <h2>Unde Ne Găsești</h2>
 
         <div>
-          <h3>Visit Our Bar</h3>
-          <p>Moldova Address to include here</p>
+          <h3>Vizitează Barul Nostru</h3>
+          <p>Bd. Ștefan cel Mare 12, Chișinău, Moldova</p>
         </div>
 
         <div>
-          <h3>Contact Us</h3>
-          <p>info@cocktails.com</p>
-          <p>+373 123 456 789</p>
+          <h3>Contactează-ne</h3>
+          <p>salut@themojito.md</p>
+          <p>+373 69 123 456</p>
         </div>
 
         <div>
-          <h3>Open Every Day</h3>
+          <h3>Deschis în Fiecare Zi</h3>
           {openingHours.map((time) => (
             <p key={time.day}>
               {time.day}: {time.time}
@@ -71,7 +71,7 @@ const Contact = () => {
         </div>
 
         <div>
-          <h3>Socials</h3>
+          <h3>Rețele Sociale</h3>
 
           <div className="flex-center gap-5">
             {socials.map((social) => (
